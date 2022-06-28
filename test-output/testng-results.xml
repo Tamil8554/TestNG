@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-27T03:34:13Z" name="Suite" finished-at="2022-06-27T03:34:13Z" duration-ms="106">
+    <groups>
+      <group name="Test-3">
+        <method signature="G2.tc3()[pri:0, instance:org.test.G2@13d4992d]" name="tc3" class="org.test.G2"/>
+        <method signature="G3.tc111()[pri:0, instance:org.test.G3@302f7971]" name="tc111" class="org.test.G3"/>
+      </group> <!-- Test-3 -->
+      <group name="Test-1">
+        <method signature="G2.tc2()[pri:0, instance:org.test.G2@13d4992d]" name="tc2" class="org.test.G2"/>
+        <method signature="G3.tc333()[pri:0, instance:org.test.G3@302f7971]" name="tc333" class="org.test.G3"/>
+      </group> <!-- Test-1 -->
+      <group name="Test-2">
+        <method signature="G2.tc1()[pri:0, instance:org.test.G2@13d4992d]" name="tc1" class="org.test.G2"/>
+        <method signature="G3.tc222()[pri:0, instance:org.test.G3@302f7971]" name="tc222" class="org.test.G3"/>
+      </group> <!-- Test-2 -->
+      <group name="Test3">
+        <method signature="G1.tc33()[pri:0, instance:org.test.G1@5082d622]" name="tc33" class="org.test.G1"/>
+      </group> <!-- Test3 -->
+      <group name="Test2">
+        <method signature="G1.tc22()[pri:0, instance:org.test.G1@5082d622]" name="tc22" class="org.test.G1"/>
+      </group> <!-- Test2 -->
+    </groups>
+    <test started-at="2022-06-27T03:34:13Z" name="Test" finished-at="2022-06-27T03:34:13Z" duration-ms="106">
+      <class name="org.test.G3">
+        <test-method signature="tc111()[pri:0, instance:org.test.G3@302f7971]" started-at="2022-06-27T03:34:13Z" name="tc111" finished-at="2022-06-27T03:34:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc111 -->
+        <test-method signature="tc222()[pri:0, instance:org.test.G3@302f7971]" started-at="2022-06-27T03:34:13Z" name="tc222" finished-at="2022-06-27T03:34:13Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc222 -->
+        <test-method signature="tc333()[pri:0, instance:org.test.G3@302f7971]" started-at="2022-06-27T03:34:13Z" name="tc333" finished-at="2022-06-27T03:34:13Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc333 -->
+      </class> <!-- org.test.G3 -->
+      <class name="org.test.G1">
+        <test-method signature="tc22()[pri:0, instance:org.test.G1@5082d622]" started-at="2022-06-27T03:34:13Z" name="tc22" finished-at="2022-06-27T03:34:13Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc22 -->
+        <test-method signature="tc33()[pri:0, instance:org.test.G1@5082d622]" started-at="2022-06-27T03:34:13Z" name="tc33" finished-at="2022-06-27T03:34:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc33 -->
+      </class> <!-- org.test.G1 -->
+      <class name="org.test.G2">
+        <test-method signature="tc1()[pri:0, instance:org.test.G2@13d4992d]" started-at="2022-06-27T03:34:13Z" name="tc1" finished-at="2022-06-27T03:34:13Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc2()[pri:0, instance:org.test.G2@13d4992d]" started-at="2022-06-27T03:34:13Z" name="tc2" finished-at="2022-06-27T03:34:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method signature="tc3()[pri:0, instance:org.test.G2@13d4992d]" started-at="2022-06-27T03:34:13Z" name="tc3" finished-at="2022-06-27T03:34:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+      </class> <!-- org.test.G2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
